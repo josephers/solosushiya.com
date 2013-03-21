@@ -8,6 +8,7 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/flatstrap/css/bootstrap.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
@@ -20,7 +21,11 @@
         font-family: "Amatic SC", serif;
       }
       .container {
-        max-width: 850px;
+        max-width: 800px;
+        padding-bottom:100px;
+      }
+      pre {
+        font-family: Arial;
       }
     </style>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -32,63 +37,106 @@
   <body>
 
     <div class="container">
-
-      <h1 class="text-warning">Solo Sushi Ya <small>Japanese Bistro, Toronto.</small></h1>
+      <br>
+      <h1 class="text-warning"><a href="/" class="text-warning">Solo Sushi Ya <small>Japanese Bistro, Toronto</small></a></h1>
 
       <div class="tabbable">
         <ul class="nav nav-tabs">
           <li class="pull-left active"><a href="#home" data-toggle="tab">Home</a></li>
           <li class="pull-right"><a href="#contact" data-toggle="tab">Contact</a></li>
-          <li class="pull-right"><a href="#menu" data-toggle="tab">Menu</a></li>
+          <li class="pull-right"><a href="#menu" data-toggle="tab">Take-Out Menu</a></li>
           <li class="pull-right"><a href="#reviews" data-toggle="tab">Reviews</a></li>
 
         </ul>
         <div class="tab-content">
           <div class="tab-pane active fade in" id="home">
-            <h2 class="">Japanese Bistro in the heart of downtown Toronto. <small class="muted small pull-right">Yonge St. and Grovesnor St.</small></h2>
+            <div class="row-fluid">
+            <div id="myCarousel" class="carousel slide">
+              <!-- Carousel items -->
+              <div class="carousel-inner">
+                <div class="active item"><img src="assets/readytable.jpg"/></div>
+                <div class="item"><img src="assets/unagi.jpg"></div>
+                <div class="item"><img src="assets/shrimpsushipinecone.jpg"></div>
+                <div class="item"><img src="assets/soba.jpg"></div>
+                <div class="item"><img src="assets/jyo.jpg"></div>
+                <div class="item"><img src="assets/sidedishes.jpg"></div>
+                <div class="item"><img src="assets/soysauce.jpg"></div>
+              </div>
+              <!-- Carousel nav -->
+              <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+              <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+            </div>
+            <h2 class="text-warning">Japanese Bistro in the heart of downtown Toronto <small class="muted small pull-right">Yonge St. and Grovesnor St.</small></h2>
             <br/>
             <p class="lead">Real food for real people.</p>
-            <p>We work with a diverse range of clients to identify and implement customized business and IT solutions that will best meet their particular needs and goals.</p>
-            <p>We also provide resources placement and consulting services according to client assessment.</p>
-            <blockquote class="pull-right">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-    <small>Someone famous <cite title="Source Title">Source Title</cite></small>
-    </blockquote>
+
+            <div class="row-fluid">
+              <div class="span6"><br/><br/><br/>
+                    <blockquote class="pull-right">
+                      <p>Where do you get some of the best sushi in the city? Newmarket. Yup, you read that right, Master sushi chef Jyo sends out the freshest fish at Solo Sushi Ya, plus cooked dishes worth traveling for.</p>
+                      <small><i class="icon-leaf"></i> <cite title="Source Title">Toronto Star</cite></small>
+                  </blockquote>
+                  </div>
+                  <div class="span6">
+                    <img src="assets/porkbelly.jpg">
+                  </div>
+                </div>
+          </div><!--.row-->
           </div>
           <div class="tab-pane fade in" id="menu">
-            <h4 class="">Project Delivery and Resource Placements</h4>
-            <ul>
-              <li>Financial Services Consulting</li>
-              <li>Non-profit Process Consulting</li>
-              <li>Boutique Website</li>
-              <li>Non-profit Organization Websites</li>
-            </ul>
-            <h4 class="">Project Opportunities</h4>
-            <ul>
-              <li>Business Mobile Development</li>
-              <li>Business Online Development</li>
-              <li>Boutique Artist Website</li>
-              <li>Food Service Website</li>
-              <li>Non-profit organizations</li>
-            </ul>
-          </div>
+
+            <img src="assets/storefront.jpg"/>
+            <h2>Take-Out Menu</h2>
+        </div>
           <div class="tab-pane fade in" id="reviews">
-            <h4 class="">Reviews</h4>
-            <p>A Brainlure internship provides skilled and motivated individuals with a unique opportunity to volunteer their time, commitment and abilities for online and mobile projects.</p>
-            <p>Brainlure is looking for talented interns who want to build their portfolios, develop valuable experience, and build their personal and professional networks. If you have exceptional skills and are motivated to work as part of a small, collaborative and creative team, then email us at <a href="mailto:hello@brainlure.com">hello@brainlure.com</a>.</p>
+            <img src="assets/sushirow.jpg">
+            <div class="row-fluid">
+              <div class="span6">
+              <h3>The Globe and Mail <small>Joanne Kates</small></h3>
+            <pre>
+              Owner Jyo Gao, from Yokohama, is the sushi wizard. He leaves the sushi bar again to tell us about tonight’s Eastern European wild white sushi clams, which he says mimic the texture of abalone. The clams are indeed fabulously sweet, tender but with bite. But Gao’s sushi rice steals the show. Not since a $700 dinner (for two) at Hashimoto have I met rice this good, and not before that for a decade. The rice is warm (i.e., freshly made), moist, and its grains more differentiated than anyone else’s I have found hereabouts. The rice is usually merely the vehicle for the fish. Here, it could be the main event. Except that the fish is also astonishing in a way that’s attributable to its freshness and also to Mr. Gao’s knife skills. His fiery house wasabi doesn’t hurt either.
+
+Mr. Gao is an artist, a man of integrity, who leads his customers gently toward what he thinks they should eat. Maybe he has only the one inarticulate server because he wants to control the communication. He is abetted by having only 32 seats in the cozy room, its walls crammed with landscapes by his 16-year-old daughter, who is channelling Tom Thomson.
+
+There are two cooks in the kitchen who usually do a great job. Their sole misstep is negima yaki: Horribly overcooked beef and green onions with teriyaki sauce. Save for that one inedible item, their work measures up to Gao’s sushi. Oft times the combo of cooked and raw they offer is superb: Dragon roll, so often a flavour-free cliché, is very fresh, melt-in-the-mouth eel with avocado, and, and its heart, ultra-crisp fat tempura shrimp. After the dragon roll, the master comes forth from his sushi bar yet again, to inquire: “How are you doing? Is it enough? Do you want a little more?”
+
+Who could decline? A little more hamachi and some clean-tasting, perfect uni later, both on the unbelievable rice, and it’s time to stop. Reluctantly. We trust Mr. Gao now, we are putty in his hands. He is the master and we the willing recipients of his edible art.</pre></div>
+              <div class="span6">
+              <h3>Toronto Life <small>2010</small></h3>
+            <pre>Drive far enough up the 404 and you’ll discover two things: not only are there more stars in the sky, but there’s also this one tucked in a poky strip plaza. Master sushi chef Jyo Gao has been slicing meltingly soft fish in this cozy room for nine years, yet he’s as passionate about ingredients, tradition, nutrition (don’t even get him started on vegetarianism) and the art of sushi as a newbie. (Trust us, you’ll be star-struck, too.) The thick menu has pages and pages dedicated to an impressive selection of sakes, as well as sashimi, maki rolls, noodles and, for the adventurous, omakase ($55). Flavours are delicate, texture is paramount, and the presentation consistently artful. A tiny pickled wild mountain peach arrives alongside tuna, smoked mackerel, and burdock root wrapped in beef. Pork gyoza are crispy and light as air. A green apple–soy milk custard is the perfect finish. Reverential service. Mains $20–$28.</pre>
+          <p><img src="assets/rawsushi.jpg"></p>
+          <p><img src="assets/fulltable.jpg"></p>
+
+          </div>
+            
+          </div>
+          
           </div>
           <div class="tab-pane fade in" id="contact">
-            <h5>Contact</h5>
-            <p><a href="mailto:hello@brainlure.com">hello@brainlure.com</a></p>
-            <p>(416) 273-3708</p>
-            <p>(416) 817-8271</p>
-            
-            <address><p>
-            <strong><small>Brainlure Inc.</small></strong><br/>
-            35 Hollywood Ave<br/>
-            Toronto, Ontario<br/>
-            M2N 0A9</address></p>
+            <div class="row-fluid">
+              <div class="span6">
+              <h3>Contact</h3>
 
+              <p><a href="mailto:solosushiya@yahoo.ca">solosushiya@yahoo.ca</a></p>
+              <hr>
+              <address><p>
+              <strong><i class="icon-map-marker"></i> <small>Solo Sushi Ya</small></strong></p><p>
+              291 Davis Drive<br/>
+              Newmarket, Ontario<br/>
+              L3Y 2N6<br>
+              <small>(905) 898-6868</small></address></p>
+              <hr>
+              <address><p>
+              <strong><i class="icon-map-marker"></i> <small>Solo Sushi Bekkan</small></strong></p><p>
+              3 Grovesnor Street<br/>
+              Toronto, Ontario<br/>
+              M4Y 1A9<br/>
+              <small>(416) 925-3388</small></address></p>
+            </div>
+            <div class="span6">
+              <img src="assets/open.jpg">
+            </div>
+          </div>
           </div>
         </div>
       </div>
@@ -100,5 +148,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+    <script>
+    $('#myCarousel').carousel()
+    </script>
 </body>
 </html>
